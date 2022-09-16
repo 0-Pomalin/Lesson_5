@@ -1,0 +1,11 @@
+@import url('./fonts.css');
+
+
+h1 {
+  font-family: "NovemberSlabPro";
+  font-style: italic;
+}
+
+p {
+  font-family: "Philosopher";
+}
