@@ -4,8 +4,81 @@
 h1 {
   font-family: "NovemberSlabPro";
   font-style: italic;
+  font-weight: 900;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
-p {
+
+
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.glory,
+.hero {
+  padding: 30px;
+  width: 880px;
+  font-family: "NovemberSlabPro";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 25px;
+  text-shadow: 5px 5px 15px #000;
+}
+
+.glory {
+  margin-top: 15px;
+  background-color: blue;
+  color: yellow;
+
+
+}
+
+.hero {
+  margin-bottom: 15px;
+  background-color: yellow;
+  color: blue;
+
+}
+
+.title {
+  padding: 30px;
+  width: 880px;
+  text-align: center;
+  background-color: aqua;
+}
+
+.text {
+  padding: 10px;
+  margin-top: 10px;
+  width: 880px;
+  text-align: justify;
+  line-height: 1.2;
+  /* outline: 1px solid tomato; */
+}
+
+.bg-grey {
+  background-color: gainsboro;
+  padding: 15px 30px
+}
+
+.footer .text {
+  text-align: center;
+}
+
+
+div p {
+  padding: 5px;
   font-family: "Philosopher";
+  font-weight: 400;
+  text-indent: 20px;
+  /* white-space: nowrap; */
+  /* word-spacing: 20px; */
 }
